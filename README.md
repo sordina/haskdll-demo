@@ -1,2 +1,3 @@
 # haskdll-demo
-short POC of dll based switching of implementations
+
+A short POC of DLL based switching of implementations.

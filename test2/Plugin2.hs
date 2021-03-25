@@ -6,4 +6,4 @@ foreign export ccall initializePlugin :: IO (StablePtr (String -> IO ()))
 
 initializePlugin :: IO (StablePtr (String -> IO ()))
 initializePlugin =
-    newStablePtr $ \s -> putStrLn $ s <> "!!"
+    newStablePtr $ \s -> putStrLn $ s <> " :)"

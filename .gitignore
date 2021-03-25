@@ -3,3 +3,4 @@ Main
 *.hi
 *.so
 *_stub.h
+*-so

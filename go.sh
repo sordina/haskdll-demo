@@ -10,6 +10,8 @@ rm -f Plugin1.hi
 rm -f Plugin1.o
 rm -f Plugin2.hi
 rm -f Plugin2.o
+rm -f Plugin1_stub.h
+rm -f Plugin2_stub.h
 
 PLUGIN=./plugin1-so ./Main
 PLUGIN=./plugin2-so ./Main
